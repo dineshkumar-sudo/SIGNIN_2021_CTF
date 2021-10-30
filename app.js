@@ -214,7 +214,8 @@ function swapping(ans)
     if(i==8)
     {
         totalScore += parseInt(document.getElementById("LiveScore" + i).innerText);
-        alert("Thanking you Your Score is "+totalScore-10);
+        totalScore -= 10;
+        alert("Thanking you Your Score is "+totalScore);
     }
     else{
     if(ans == "prev")
